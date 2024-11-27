@@ -1,13 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Certificacion</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
+
 <body>
-    
+    <!-- el top -->
+    <nav class="barrita">
+        <div class="arriba">
+            <h1>Libroteca</h1>
+            <img src="img/logo.png" alt="logo.png">
+        </div>
+      
+        <div class="botones">
+            <button class="sesion" onclick="sesion()">Inicio de sesión</button id="a">
+            <button class="registro" onclick="registro()">Registro</button id="b">
+        </div>
+    </nav>
+    <!-- fin top -->
+    <!-- info -->
+    <div class="navegacion">
+        <nav class="navegacion">
+            <ul>
+                <li><img src="img/libro.png" alt="">Elige tu libro</li>
+                <li><img src="img/check.png" alt="">Revisa disponibilidad</li>
+                <li><img src="img/separalo.png" alt=""> Sepáralo</li>
+                <li><img src="img/shipping.png" alt=""> Recíbelo</li>
+            </ul>
+        </nav>
+
+        <section class="categories">
+            <button>Ficción</button>
+            <button>Históricos</button>
+            <button>Tecnología</button>
+            <button>Autoayuda</button>
+            <button>Poesía</button>
+        </section>
+        <!-- libros -->
+    </div>
+
+    <section class="book-section">
+        <h2 class="section-title">Todos los Libros</h2>
+        <div class="book-container">
+            <div class="book-item">
+                <img src="img/cien.jpg" alt="Cien Años de Soledad" id="imagen">
+                <h3 class="book-title" id="titulo-uno">Cien Años de Soledad</h3>
+                <p class="book-author" id="autor-uno">Gabriel García Márquez</p>
+                <button class="rent-button" id="uno" onclick="cambiarEstado(this)">Rentar</button>
+            </div>
+
+            <div class="book-item">
+                <img src="img/rayuela.jpg" alt="Rayuela" id="imagen">
+                <h3 class="book-title" id="titulo-dos">Rayuela</h3>
+                <p class="book-author" id="autor-dos">Julio Cortázar</p>
+                <button class="rent-button" id="dos" onclick="cambiarEstado(this)">Rentar</button>
+            </div>
+
+            <div class="book-item">
+                <img src="img/travesuras.jpg" alt="Travesuras de la niña mala" id="imagen">
+                <h3 class="book-title" id="titulo-tres">Travesuras de la niña mala</h3>
+                <p class="book-author" id="autor-tres">Mario Vargas Llosa</p>
+                <button class="rent-button" id="tres" onclick="cambiarEstado(this)">Rentar</button>
+            </div>
+        </div>
+    </section>
+    <!-- fin libros -->
+
+    <p id="p">Todos los derechos reservados. Libroteca</p>
+    <script src="script.js"></script>
 </body>
+
 </html>

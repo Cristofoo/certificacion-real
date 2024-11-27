@@ -1,0 +1,211 @@
+* {
+    margin: 0px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+/* BOTONES */
+.arriba {
+    display: flex;
+    margin: 10px;
+    font-size: 30px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.barrita {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.barrita h1 {
+    margin-right: 20px;
+}
+
+.botones {
+    display: flex;
+    justify-content: end;
+    height: 25px;
+    margin: 10px;
+    width: 50;
+}
+.botones :hover{
+    opacity: 0.9;
+}
+
+.barrita .sesion {
+    background-color: #095394;
+    border-color: #095394;
+    color: white;
+}
+
+.barrita .registro {
+    background-color: #9fc5f8;
+    border-color: #9fc5f8;
+    ;
+    margin-left: 10px;
+}
+
+/*  FIN BOTONES */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* disposiciones */
+.navegacion ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    padding: 10px;
+    gap: 10px;
+}
+
+.navegacion img {
+    margin-right: 10px;
+}
+
+.navegacion ul li {
+    font-size: 14px;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #9fc5f8;
+    gap: 10px;
+}
+
+.categories button {
+    border: 1px solid #9fc5f8;
+    background-color: #9fc5f8;
+    color: black;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.categories button:hover {
+    background-color: #003366;
+    color: white;
+}
+
+/*  fin dispo */
+/* ----------------------------------------------------------------------------------------------------------------------- */
+/*  libros */
+h2 {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #dddddd;
+}
+
+/* XD */
+#titulo-uno {
+    margin-left: 50px;
+}
+
+#titulo-dos {
+    margin-left: 100px;
+}
+
+#titulo-tres {
+    margin-left: 35px
+}
+
+#autor-uno {
+    margin-left: 50px;
+}
+
+#autor-dos {
+    margin-left: 85px;
+}
+
+#autor-tres {
+    margin-left: 70px;
+}
+
+#uno {
+    margin-left: 80px;
+}
+
+#dos {
+    margin-left: 90px;
+}
+
+#tres {
+    margin-left: 85px;
+}
+
+/* XD */
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.book-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.book-item {
+    margin-top: 20px;
+    width: 250px;
+    height: 450px;
+    background-color: #dddddd;
+}
+
+.book-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+#imagen {
+    width: 250px;
+    height: 300px;
+}
+
+.book-title {
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.book-author {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.rent-button {
+    background-color: #9fc5f8;
+    color: #000000;
+    border: none;
+    margin-left: 70px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.rent-button:hover {
+    opacity: 0.9;
+    background-color: #9fc5f8;
+}
+
+/* fin libros */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+#p {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #095394;
+    color: white;
+}
