@@ -15,7 +15,7 @@
             <h1>Libroteca</h1>
             <img src="img/logo.png" alt="logo.png">
         </div>
-      
+
         <div class="botones">
             <button class="sesion" onclick="sesion()">Inicio de sesión</button id="a">
             <button class="registro" onclick="registro()">Registro</button id="b">
@@ -27,24 +27,24 @@
         <nav class="navegacion">
             <ul>
                 <li><img src="img/libro.png" alt="">Elige tu libro</li>
-                <li><img src="img/check.png" alt="">Revisa disponibilidad</li>
+                <li><img src="img/check.png" alt="check">Revisa disponibilidad</li>
                 <li><img src="img/separalo.png" alt=""> Sepáralo</li>
                 <li><img src="img/shipping.png" alt=""> Recíbelo</li>
             </ul>
         </nav>
 
-        <section class="categories">
-            <button>Ficción</button>
-            <button>Históricos</button>
-            <button>Tecnología</button>
-            <button>Autoayuda</button>
-            <button>Poesía</button>
+        <section class="categorias">
+            <a href="#" onclick="lisa('Poesía')">Poesía</a>
+            <a href="#" onclick="lisa('Autoayuda')">Autoayuda</a>
+            <a href="#" onclick="lisa('Tecnología')">Tecnología</a>
+            <a href="#" onclick="lisa('Históricos')">Históricos</a>
+            <a href="#" onclick="lisa('Ficción')">Ficción</a>
         </section>
         <!-- libros -->
     </div>
 
     <section class="book-section">
-        <h2 class="section-title">Todos los Libros</h2>
+        <h2 class="section-title" id="cambio" >Todos los Libros</h2>
         <div class="book-container">
             <div class="book-item">
                 <img src="img/cien.jpg" alt="Cien Años de Soledad" id="imagen">

@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* --------------------------------------------------------------------------------------------------------------- */
@@ -43,7 +44,6 @@
 .barrita .registro {
     background-color: #9fc5f8;
     border-color: #9fc5f8;
-    ;
     margin-left: 10px;
 }
 
@@ -68,15 +68,19 @@
     font-size: 14px;
 }
 
-.categories {
+.categorias {
     display: flex;
     justify-content: center;
     padding: 10px;
     background-color: #9fc5f8;
     gap: 10px;
 }
+.categorias a{
+    text-decoration: none;
+    color: #000000;
+}
 
-.categories button {
+.categorias button {
     border: 1px solid #9fc5f8;
     background-color: #9fc5f8;
     color: black;
@@ -85,7 +89,7 @@
     border-radius: 5px;
 }
 
-.categories button:hover {
+.categorias button:hover {
     background-color: #003366;
     color: white;
 }

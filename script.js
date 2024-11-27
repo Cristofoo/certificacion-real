@@ -7,9 +7,12 @@ function cambiarEstado(boton, titulo) {
     }
 
     function sesion() {
-        alert("Has hecho clic en 'Inicio de sesión'");
+        alert("Inicio de sesion exitoso");
     }
 
     function registro() {
-        alert("Has hecho clic en 'Registro'");
+        alert("Registrado");
     }
+    function lisa(newTitle) {
+        document.getElementById('cambio').textContent = newTitle;
+      }
